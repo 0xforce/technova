@@ -15,35 +15,35 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    title: "Best app ever!",
+    title: "Best Leads I've Found",
     content:
-      "This app has been a game-changer for me! It's made tracking my daily activities so much easier. I love how intuitive and user-friendly it is.",
-    author: "Jonas Aly",
-    designation: "Founder @ Company",
+      "I booked 6 discovery calls the first week—2 closed at $5,000 each. Game changer!",
+    author: "Lauren S.",
+    designation: "Mindset Coach",
   },
   {
     rating: 5,
-    title: "Super helpful to stay organized",
+    title: "Unmatched Lead Quality",
     content:
-      "I can't thank this app enough for helping me stay on top of my tasks. The reminders have saved me from missing important deadlines, and I'm much more organized now.",
-    author: "Mark Bures",
-    designation: "Businessman",
+      "Their leads are 🔥. The quality is unmatched.",
+    author: "Miguel T.",
+    designation: "Fitness Trainer",
   },
   {
     rating: 5,
-    title: "Great app that saves time",
+    title: "Changed How I Market",
     content:
-      "The app's integration with my other tools is seamless. I can easily check my progress and activities without having to switch between multiple platforms.",
-    author: "William Kolas",
-    designation: "Student",
+      "I tried Facebook ads for months. TechNova delivered more in 10 days than I got in 3 months.",
+    author: "Jenny H.",
+    designation: "Life Coach",
   },
   {
-    rating: 4,
-    title: "Seriously life changing app!",
+    rating: 5,
+    title: "Scaled My Business Fast",
     content:
-      "The insights and reports have been eye-opening. I now have a better understanding of my habits and can make adjustments to improve my productivity.",
-    author: "Andrew Chan",
-    designation: "Manager @ AB Company",
+      "Went from 3 clients to 12 in 2 months. The leads are pre-qualified and ready to invest.",
+    author: "Sarah K.",
+    designation: "Business Coach",
   },
 ];
 
@@ -52,7 +52,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews = defaultReviews }) => {
     <section className="py-24 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-8 text-gray-900 dark:text-white">
-          A beautiful reviews section
+          What Our Coaches Say
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
           {reviews.map((review, index) => (

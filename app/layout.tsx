@@ -4,8 +4,8 @@ import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Next JS SaaS Starter Template",
-  description: "Next JS SaaS Starter Template",
+  title: "Qualified Leads for Online Coaches | TechNova LLC",
+  description: "TechNova delivers high-quality, pre-qualified leads for online coaches in business, fitness, health, and mindset. Grow your coaching business with clients ready to invest. Book a free strategy call now.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

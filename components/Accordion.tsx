@@ -40,19 +40,19 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    title: "Are the leads exclusive?",
+    content: "Yes. Each lead is sold to only one coach—you.",
   },
   {
-    title: "Easy to use",
+    title: "How fast can I get leads?",
     content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+      "We usually deliver your first batch within 3-5 business days.",
   },
   {
-    title: "Focus on what matters",
+    title: "Can you integrate with my CRM?",
     content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
-  },
+      "Yes, we support all major platforms like HubSpot, GoHighLevel, and more."
+  }
 ];
 
 interface AccordionProps {

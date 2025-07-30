@@ -1,39 +1,38 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { FaUsers, FaCalendarAlt, FaFilter, FaBullseye, FaUserCheck, FaGlobe } from "react-icons/fa";
 
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
-      title: "Next.js 14",
-      description: "App dir, Routing, Layouts, components, and more.",
+      icon: FaUsers,
+      title: "Hyper-Targeted Lead Generation",
+      description: "Connect with prospects actively seeking coaching in your specific niche with our intelligent matching system.",
     },
     {
-      icon: FaReact,
-      title: "React 18",
-      description: "Server and Client Components. using hooks and context.",
+      icon: FaCalendarAlt,
+      title: "Lead Appointment Booking",
+      description: "Seamless calendar integration with pre-scheduled calls that fit your schedule perfectly.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
-      description: "Postgres basic database and other cool features to come.",
+      icon: FaFilter,
+      title: "AI-Enhanced Filtering",
+      description: "Advanced AI algorithms ensure only high-intent leads that perfectly match your ideal customer profile reach you.",
     },
     {
-      icon: SiTailwindcss,
-      title: "Components",
-      description: "Awesome components built with Tailwind CSS and more to come.",
+      icon: FaBullseye,
+      title: "Niche-Specific Funnels",
+      description: "Custom-built conversion funnels optimized for health, mindset, business, and fitness coaching niches.",
     },
     {
-      icon: FaShieldAlt,
-      title: "Authentication",
-      description: "Talk about your authentication features built into your app.",
+      icon: FaUserCheck,
+      title: "Identity Verified Leads",
+      description: "Every lead is verified with real contact information - no more ghosting or fake prospects.",
     },
     {
-      icon: SiStripe,
-      title: "Subscriptions",
-      description: "Talk about your subscription features and how they work.",
+      icon: FaGlobe,
+      title: "Web Presence",
+      description: "Professional, conversion-optimized web pages that showcase your expertise and convert visitors into clients.",
     },
   ];
 

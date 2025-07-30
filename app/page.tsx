@@ -7,7 +7,7 @@ import Customers from "components/Customers";
 import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
-import Download from "components/Download";
+import Contact from "components/Contact";
 
 export default function Page() {
   return (
@@ -20,16 +20,29 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Effortlessly highlight the key features of your app
+                Online Coaching Use Case
               </h2>
-              <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
+              <p className="text-xl font-light mb-6">
+                Whether you're a mindset coach, fitness trainer, or business strategist—TechNova delivers leads looking for results. We target users based on interests, pain points, and behaviors, filtering for your niche before you ever pick up the phone. You'll get:
               </p>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-black dark:bg-white rounded-full mt-3 mr-3 flex-shrink-0"></div>
+                  <p className="text-lg text-gray-700 dark:text-gray-300">People actively searching for coaching programs.</p>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-black dark:bg-white rounded-full mt-3 mr-3 flex-shrink-0"></div>
+                  <p className="text-lg text-gray-700 dark:text-gray-300">Profiles that meet your income, location, or commitment criteria.</p>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-black dark:bg-white rounded-full mt-3 mr-3 flex-shrink-0"></div>
+                  <p className="text-lg text-gray-700 dark:text-gray-300">Clients ready to invest in themselves—and in you.</p>
+                </div>
+              </div>
             </>
           }
           rightHalf={
-            <Image src={"/products/phone.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <Image src={"/case.png"} alt="use-case" width={500} height={100} className="w-3/4 h-auto" />
           }
         />
         <Customers />
@@ -38,17 +51,16 @@ export default function Page() {
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
+                Still have questions?
               </h2>
               <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
+                We're here to help. Check out our FAQ or contact us directly.
               </p>
             </div>
           }
         />
         <Reviews />
-        <Download />
+        <Contact />
       </main>
       <Footer />
     </div>
