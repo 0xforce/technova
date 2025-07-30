@@ -42,7 +42,7 @@ export default function Page() {
             </>
           }
           rightHalf={
-            <Image src={"/case.png"} alt="use-case" width={500} height={100} className="w-3/4 h-auto" />
+            <Image src={"/case.png"} alt="use-case" width={500} height={100} className="w-3/4 h-auto dark:invert" />
           }
         />
         <Customers />
