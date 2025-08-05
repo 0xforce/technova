@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
     console.log("Button clicked!");
     
     // WhatsApp with predefined message
-    const phoneNumber = "13055551234"; // Replace with your actual phone number
+    const phoneNumber = "+19542144625"; // Replace with your actual phone number
     const message = encodeURIComponent(`Hi TechNova team! 👋
 
 I'm interested in your lead generation services for my coaching business.
@@ -39,7 +39,7 @@ Thanks!`);
                  <FaPhone className="text-xl text-black dark:text-white" />
                  <div>
                    <p className="text-lg font-medium text-gray-900 dark:text-white">Phone</p>
-                   <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                   <p className="text-gray-600 dark:text-gray-300">+1 (954) 214-4625</p>
                  </div>
                </div>
                <div className="flex items-center space-x-3">
