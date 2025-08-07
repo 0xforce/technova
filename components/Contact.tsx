@@ -39,7 +39,7 @@ Thanks!`);
                  <FaPhone className="text-xl text-black dark:text-white" />
                  <div>
                    <p className="text-lg font-medium text-gray-900 dark:text-white">Phone</p>
-                   <p className="text-gray-600 dark:text-gray-300">+1 (954) 214-4625</p>
+                   <p className="text-gray-600 dark:text-gray-300">+1 (754) 330-7136</p>
                  </div>
                </div>
                <div className="flex items-center space-x-3">
